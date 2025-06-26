@@ -1,0 +1,46 @@
+{
+    "welcome": "Welcome",
+    "language": "Language",
+    "Navigation": {
+        "home": "Home",
+        "projects": "Our Projects",
+        "services": "Our Services",
+        "contact": "Contact Us",
+        "employment": "Employment"
+    },
+    "Home": {
+        "hero-title": "Surooh Al-Kubra Construction Company",
+        "hero-description": "Building the future... based on trust and creativity",
+        "hero-cta": "Our profile",
+        "about-title": "About the Company",
+        "about-description": "Surooh Al-Kubra Construction Company was founded in the Sultanate of Oman in 2008 with an ambitious vision to provide high-quality contracting services, committed to the highest standards of precision and efficiency in project execution. The company started with steady steps, relying on a professional team and strong experience in managing and executing engineering projects. Thanks to our excellent performance and the trust we have earned from our clients, the company has successfully implemented a wide range of prestigious projects, contributing to enhancing its position in the Omani market. With the growing demand for our services and the expansion of our client base, we decided in 2024 to expand our operations into the Saudi market, and by the grace of God, we opened a branch in Jeddah to be a new gateway towards continuous success and growth. Today, Surooh Al-Kubra Construction Company continues its journey steadily, focusing on providing innovative engineering solutions that meet our clients' aspirations and achieve the highest quality standards in every project.",
+        "goals": "Our Goals",
+        "goal-1": "Execute construction projects with high quality according to local and international standards.",
+        "goal-2": "Provide integrated maintenance services for malls, banks, and commercial facilities to ensure operational continuity with efficiency.",
+        "goal-3": "Achieve customer satisfaction by adhering to deadlines and precision in execution.",
+        "goal-4": "Rely on the latest technologies in construction and maintenance to enhance efficiency and sustainability.",
+        "goal-5": "Expand into the Gulf market and increase market share in the contracting sector.",
+        "goal-6": "Improve human resource performance through continuous training and skill development.",
+        "goal-7": "Promote sustainability by using environmentally friendly materials and technologies.",
+        "goal-8": "Provide innovative solutions in design and implementation to improve project quality.",
+        "goal-9": "Ensure a safe working environment according to occupational health and safety standards.",
+        "goal-10": "Build long-term relationships with clients and suppliers based on trust and transparency."
+    },
+    "Employment": {
+        "title": "Join Our Team and Be Part of Our Success, Apply Today",
+        "name": "Full Name",
+        "job": "Job Title",
+        "message": "Message",
+        "cv": "CV",
+        "send": "Send"
+    },
+    "copyright": "All rights reserved",
+    "Services": {
+        "button": "More"
+    },
+    "Not-found": {
+        "title": "This page was not found",
+        "description": "Please check the URL or go back to the homepage",
+        "button": "Home page"
+    }
+}
