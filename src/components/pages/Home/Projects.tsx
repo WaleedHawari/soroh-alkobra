@@ -6,6 +6,7 @@ import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 // import { ThemedButtton } from "@/components/ThemedButtton";
 import React from "react";
+import { ProjectType } from "@/components/ProjectType";
 
 export const Projects = () => {
     const t = useTranslations();
@@ -74,7 +75,7 @@ export const Projects = () => {
     return (
         <Section>
             <Container>
-                <SectionTitle variant="primary">{t("Navigation.projects")}</SectionTitle>
+                <SectionTitle variant="dark">{t("Navigation.projects")}</SectionTitle>
                 <div className="space-y-8">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-white">
                         {projects.map((item, index) => (
@@ -89,7 +90,8 @@ export const Projects = () => {
                             </div> */}
                                 {item.items.slice(0, 1).map((e, index) => (
                                     <Link key={index} href={"/projects/" + item.id}>
-                                        <Project image={e} title={locale == "ar" ? item.title.ar : item.title.en} />
+                                        {/* <Project image={e} title={locale == "ar" ? item.title.ar : item.title.en} /> */}
+                                        <ProjectType title={locale == "ar" ? item.title.ar : item.title.en} />
                                     </Link>
                                 ))}
                             </React.Fragment>

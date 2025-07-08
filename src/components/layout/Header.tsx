@@ -19,10 +19,10 @@ export const Header = () => {
 
     return (
         <header className="bg-primary py-7">
-            <Container as="nav" className="text-white gap-8">
+            <Container as="nav" className="text-dark gap-8">
                 <div className="flex items-center justify-between">
                     <Link href="/">
-                        <img src="/sa-logo-white.png" alt="logo" width={100} />
+                        <img src="/sa-logo-black.png" alt="logo" width={100} />
                     </Link>
                     <ul
                         className={twMerge(

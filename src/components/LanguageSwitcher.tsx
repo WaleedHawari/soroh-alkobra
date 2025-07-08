@@ -46,7 +46,7 @@ const LanguageSwitcher = () => {
 
     return (
         <Button
-            className="cursor-pointer hover:bg-transparent hover:text-white"
+            className="cursor-pointer hover:bg-transparent"
             onClick={() => {
                 if (currentLanguage == "ar") changeLanguage("en");
                 else changeLanguage("ar");

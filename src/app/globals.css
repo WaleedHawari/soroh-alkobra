@@ -22,6 +22,7 @@ html.dark body {
 
 @theme inline {
     --color-primary: #079497;
+    --color-dark: #162b2e;
     --color-background: var(--background);
     --color-foreground: var(--foreground);
     --font-sans: var(--font-geist-sans);

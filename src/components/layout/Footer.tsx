@@ -10,9 +10,9 @@ export const Footer = () => {
             <Container>
                 <div className="flex justify-between">
                     <Link href="/">
-                        <img src="/sa-logo-white.png" alt="logo" width={100} />
+                        <img src="/sa-logo.png" alt="logo" width={100} />
                     </Link>
-                    <img src="/Saudi_Vision_2030_logo.svg.png" alt="saudi vision" width={100} className="object-contain bg-white rounded-lg p-2" />
+                    <img src="/2030.png" alt="saudi vision" width={100} className="object-contain" />
                 </div>
                 <div className="flex flex-col sm:flex-row justify-between gap-8 mt-14 mb-8">
                     <ul className="space-y-4">
