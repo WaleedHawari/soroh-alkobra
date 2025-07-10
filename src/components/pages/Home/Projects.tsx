@@ -1,7 +1,6 @@
 import { Section } from "@/components/Section";
 import { Container } from "@/components/layout/Container";
 import { SectionTitle } from "@/components/SectionTitle";
-import { Project } from "@/components/Project";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 // import { ThemedButtton } from "@/components/ThemedButtton";
