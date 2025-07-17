@@ -18,7 +18,7 @@ export const ThemedButtton = ({
             className={twMerge(
                 className,
                 variant == "primary" && "text-white bg-primary",
-                variant == "secondary" && "text-primary bg-dark",
+                variant == "secondary" && "text-white bg-dark",
                 " rounded-full px-4 py-3 cursor-pointer"
             )}
             onClick={onClick}

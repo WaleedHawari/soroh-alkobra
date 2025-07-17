@@ -11,7 +11,7 @@ export const About = () => {
                 <SectionTitle variant="secondary">{t("Home.about-title")}</SectionTitle>
                 <div className="flex flex-col sm:flex-row justify-between gap-8 text-white">
                     <p>{t("Home.about-description")}</p>
-                    <img src="/sa-logo.png" alt="" className="object-contain" width={160} />
+                    <img src="/sa-logo.png" alt="" className="object-contain" width={200} />
                 </div>
             </Container>
             <div className="absolute inset-0 bg-primary opacity-60"></div>

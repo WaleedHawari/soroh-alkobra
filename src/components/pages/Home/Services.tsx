@@ -187,7 +187,7 @@ export const Services = () => {
     return (
         <Section className="relative bg-[url(/home/services.png)] bg-no-repeat bg-cover bg-center">
             <Container className="relative z-10">
-                <SectionTitle variant="dark">{t("Navigation.services")}</SectionTitle>
+                <SectionTitle variant="secondary">{t("Navigation.services")}</SectionTitle>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 text-white">
                     {services.map((item, index) => (
                         <Link key={index} href={"/services/" + item.id}>

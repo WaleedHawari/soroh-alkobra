@@ -18,7 +18,7 @@ export const Header = () => {
     };
 
     return (
-        <header className="bg-primary py-7">
+        <header className="bg-white py-7">
             <Container as="nav" className="text-dark gap-8">
                 <div className="flex items-center justify-between">
                     <Link href="/">
