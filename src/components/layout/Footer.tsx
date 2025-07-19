@@ -1,10 +1,12 @@
 import { Container } from "./Container";
 import { IconMailFilled, IconPhoneFilled } from "@tabler/icons-react";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export const Footer = () => {
     const t = useTranslations();
+    const locale = useLocale();
+
     return (
         <footer className="bg-primary py-7 text-white">
             <Container>
@@ -37,11 +39,11 @@ export const Footer = () => {
                     <div className="space-y-4">
                         <div className="flex items-center gap-2">
                             <IconPhoneFilled />
-                            <p>+966531944425</p>
+                            <p>{locale == "ar" ? "966531944425+" : "+966531944425"}</p>
                         </div>
                         <div className="flex items-center gap-2">
                             <IconMailFilled />
-                            <p>info@sarouh.com</p>
+                            <p>info@soroh-alkobra.com</p>
                         </div>
                     </div>
                 </div>

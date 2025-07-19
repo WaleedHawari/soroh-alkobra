@@ -22,7 +22,7 @@ export const Header = () => {
             <Container as="nav" className="text-dark gap-8">
                 <div className="flex items-center justify-between">
                     <Link href="/">
-                        <img src="/sa-logo-black.png" alt="logo" width={100} />
+                        <img src="/sa-logo.png" alt="logo" width={100} />
                     </Link>
                     <ul
                         className={twMerge(
