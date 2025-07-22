@@ -12,7 +12,7 @@ export const About = () => {
         <Section className="relative bg-[url(/home/about.png)] bg-no-repeat bg-cover bg-right-top">
             <Container className="relative z-10">
                 <SectionTitle variant="secondary">{t("Home.about-title")}</SectionTitle>
-                <div className="flex flex-col sm:flex-row justify-between gap-10 text-white">
+                <div className="flex flex-col sm:flex-row items-start justify-between gap-10 text-white">
                     <p>{t("Home.about-description")}</p>
                     <img
                         src="/sa-logo.png"
