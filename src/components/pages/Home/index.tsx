@@ -11,21 +11,21 @@ const Home = () => {
     const slides = [
         {
             imageUrl: "/home/banner.jpg",
-            ctaLink: "/Soroh-Al-kobra.pdf",
+            ctaLink: "/Soroh-Al-kobra-co.-profile.pdf",
             ctaText: t("Home.hero-cta"),
             title: t("Home.hero-title"),
             subtitle: t("Home.hero-description"),
         },
         {
             imageUrl: "/home/banner.jpg",
-            ctaLink: "/Soroh-Al-kobra.pdf",
+            ctaLink: "/Soroh-Al-kobra-co.-profile.pdf",
             ctaText: t("Home.hero-cta"),
             title: t("Home.hero-title"),
             subtitle: t("Home.hero-description"),
         },
         {
             imageUrl: "/home/banner.jpg",
-            ctaLink: "/Soroh-Al-kobra.pdf",
+            ctaLink: "/Soroh-Al-kobra-co.-profile.pdf",
             ctaText: t("Home.hero-cta"),
             title: t("Home.hero-title"),
             subtitle: t("Home.hero-description"),
