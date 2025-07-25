@@ -89,7 +89,7 @@ export const Projects = () => {
                             </div> */}
                                 {item.items.slice(0, 1).map((e, index) => (
                                     <Link key={index} href={"/projects/" + item.id}>
-                                        <Project image={e} title={locale == "ar" ? item.title.ar : item.title.en} />
+                                        <Project image={"/home/banner.jpg"} title={locale == "ar" ? item.title.ar : item.title.en} />
                                     </Link>
                                 ))}
                             </React.Fragment>

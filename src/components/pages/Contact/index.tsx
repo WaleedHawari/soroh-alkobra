@@ -25,12 +25,6 @@ export const Contact = () => {
                     </div>
                 </div>
                 <div className="w-full rounded-xl overflow-hidden mt-8">
-                    {/* <iframe
-                        title="map"
-                        width="100%"
-                        height="400"
-                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Jeddah,%20King%20Fahd%20Road,%20Mohammed%20Al-Tawil%20Street+()&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    ></iframe> */}
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.255992637977!2d39.191771599999996!3d21.5368434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d18af0eb318f%3A0xab60237dddc3d859!2z2LTYsdmD2Kkg2LXYsdmI2K0g2KfZhNmD2KjYsdmJINmE2YTZhdmC2KfZiNmE2KfYqg!5e0!3m2!1sfr!2sma!4v1753466358515!5m2!1sfr!2sma"
                         width="100%"
