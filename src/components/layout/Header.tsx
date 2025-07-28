@@ -9,37 +9,50 @@ import { IconMenu2, IconX } from "@tabler/icons-react";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { DarkModeSwitcher } from "../DarkModeSwitcher";
+import { usePathname } from "next/navigation";
 
 export const Header = () => {
     const t = useTranslations();
+    const pathname = usePathname();
     const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = () => {
         setMenuOpen((open) => !open);
     };
 
+    const navItemClasses = (path: string) =>
+        twMerge("hover:text-white hover:bg-dark rounded-full px-4 py-3", pathname === path && "text-white bg-dark");
+
     return (
         <header className="bg-white">
-            <Container as="nav" className="text-dark gap-8  py-7">
+            <Container as="nav" className="text-dark gap-8 py-7">
                 <div className="flex items-center justify-between">
                     <Link href="/">
                         <img src="/sa-logo.png" alt="logo" width={100} />
                     </Link>
-                    <ul className={twMerge(menuOpen ? "block" : "hidden", "items-center justify-between gap-8 md:flex space-y-4")}>
+                    <ul className={twMerge(menuOpen ? "block" : "hidden", "items-center justify-between gap-4 md:flex space-y-4")}>
                         <li>
-                            <Link href={"/"}>{t("Navigation.home")}</Link>
+                            <Link href="/" className={navItemClasses("/")}>
+                                {t("Navigation.home")}
+                            </Link>
                         </li>
                         <li>
-                            <Link href={"/projects"}>{t("Navigation.projects")}</Link>
+                            <Link href="/projects" className={navItemClasses("/projects")}>
+                                {t("Navigation.projects")}
+                            </Link>
                         </li>
                         <li>
-                            <Link href={"/services"}>{t("Navigation.services")}</Link>
+                            <Link href="/services" className={navItemClasses("/services")}>
+                                {t("Navigation.services")}
+                            </Link>
                         </li>
                         <li>
-                            <Link href={"/contact"}>{t("Navigation.contact")}</Link>
+                            <Link href="/contact" className={navItemClasses("/contact")}>
+                                {t("Navigation.contact")}
+                            </Link>
                         </li>
                         <li>
-                            <Link href={"/employment"}>
-                                <ThemedButtton variant="secondary">{t("Navigation.employment")}</ThemedButtton>
+                            <Link href="/employment" className={navItemClasses("/employment")}>
+                                {t("Navigation.employment")}
                             </Link>
                         </li>
                         <LanguageSwitcher />
