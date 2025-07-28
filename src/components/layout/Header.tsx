@@ -1,7 +1,6 @@
 "use client";
 
 import { Container } from "./Container";
-import { ThemedButtton } from "../ThemedButtton";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "../LanguageSwitcher";
