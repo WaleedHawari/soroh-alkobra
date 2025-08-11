@@ -16,7 +16,7 @@ export const About = () => {
                     <p>{t("Home.about-description")}</p>
                     <img
                         src="/sa-logo.png"
-                        alt=""
+                        alt="soroh-allkobra-logo"
                         className={twMerge(locale == "ar" ? "sm:-ml-24 md:-ml-24" : "sm:-mr-20 md:-mr-24", "object-contain sm:relative")}
                         width={160}
                     />
