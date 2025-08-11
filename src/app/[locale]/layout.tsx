@@ -48,9 +48,15 @@ export default async function RootLayout({ children, params }: { children: React
                 <link rel="alternate" hrefLang="x-default" href="https://next-app-i18n-starter.vercel.app" />
                 <link rel="alternate" hrefLang="en" href="https://next-app-i18n-starter.vercel.app/en" />
                 <link rel="alternate" hrefLang="ar" href="https://next-app-i18n-starter.vercel.app/ar" />
-                <link rel="alternate" hrefLang="zh" href="https://next-app-i18n-starter.vercel.app/zh" />
                 {/* <meta name="keywords" content={t("keywords")} /> */}
-                <meta name="author" content="Sovers Tonmoy Pandey" />
+                <meta
+                    name="keywords"
+                    content="صروح الكبرى, شركة صروح الكبرى, Soroh AlKobra, شركة مقاولات, شركة مقاولات عامة, أفضل شركة مقاولات, شركات المقاولات الموثوقة, شركة إنشاءات, شركة بناء, شركات تشييد المباني"
+                />
+                <meta
+                    name="description"
+                    content="شركة صروح الكبرى للمقاولات تقدم أفضل خدمات البناء والتشييد بأعلى جودة واحترافية، مع خبرة واسعة في تنفيذ المشاريع العمرانية والصناعية."
+                />
                 <meta name="robots" content="index, follow" />
                 <script
                     {...jsonLdScriptProps<WebSite>({
